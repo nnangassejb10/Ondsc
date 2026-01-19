@@ -1,4 +1,5 @@
 import { ArrowUp } from "lucide-react";
+import ondscLogo from "@/assets/ondsc-logo.jpg";
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -36,14 +37,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-xl">O</span>
-              </div>
-              <div>
-                <h3 className="text-background font-bold text-xl">ONDSC</h3>
-                <p className="text-background/50 text-sm">Gabon</p>
-              </div>
+            <div className="mb-4 bg-background rounded-lg p-3 inline-block">
+              <img 
+                src={ondscLogo} 
+                alt="ONDSC Gabon" 
+                className="h-16 w-auto object-contain"
+              />
             </div>
             <p className="text-background/70 leading-relaxed mb-4 max-w-sm">
               Office National de Développement du Sport et de la Culture.
