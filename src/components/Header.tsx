@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ondscLogo from "@/assets/ondsc-logo.jpg";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,20 +16,16 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-primary/95 backdrop-blur-md border-b border-primary-foreground/10">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-border shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#accueil" className="flex items-center gap-3">
-            <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-accent flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-lg md:text-xl">O</span>
-            </div>
-            <div className="hidden sm:block">
-              <h1 className="text-primary-foreground font-bold text-lg md:text-xl leading-tight">
-                ONDSC
-              </h1>
-              <p className="text-primary-foreground/70 text-xs">Gabon</p>
-            </div>
+            <img 
+              src={ondscLogo} 
+              alt="ONDSC Gabon" 
+              className="h-12 md:h-16 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Navigation */}
@@ -37,7 +34,7 @@ const Header = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="px-4 py-2 text-primary-foreground/90 hover:text-accent transition-colors duration-200 text-sm font-medium animated-underline"
+                className="px-4 py-2 text-foreground/80 hover:text-primary transition-colors duration-200 text-sm font-medium animated-underline"
               >
                 {item.label}
               </a>
@@ -54,7 +51,7 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="lg:hidden p-2 text-primary-foreground hover:text-accent transition-colors"
+            className="lg:hidden p-2 text-foreground hover:text-primary transition-colors"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -63,14 +60,14 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="lg:hidden py-4 border-t border-primary-foreground/10 animate-fade-in">
+          <nav className="lg:hidden py-4 border-t border-border animate-fade-in bg-background">
             <div className="flex flex-col gap-2">
               {navItems.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="px-4 py-3 text-primary-foreground/90 hover:text-accent hover:bg-primary-foreground/5 rounded-lg transition-all duration-200 font-medium"
+                  className="px-4 py-3 text-foreground/90 hover:text-primary hover:bg-muted rounded-lg transition-all duration-200 font-medium"
                 >
                   {item.label}
                 </a>
