@@ -1,7 +1,7 @@
 import { ArrowRight, Music, Palette, Theater, BookOpen } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import danceImage from "@/assets/culture-dance.jpg";
-import musicImage from "@/assets/culture-music.jpg";
+import danceImage from "@/assets/CC.jpg";
+import musicImage from "@/assets/Pierre.jpg";
 
 const Culture = () => {
   const programs = [
@@ -63,7 +63,7 @@ const Culture = () => {
               />
             </div>
             <div className="bg-primary rounded-2xl p-6 flex flex-col justify-center items-center text-center">
-              <div className="text-4xl font-bold text-accent mb-2">12+</div>
+              <div className="text-4xl font-bold text-accent mb-2">50+</div>
               <div className="text-primary-foreground/80 text-sm">Ethnies représentées</div>
             </div>
           </div>
@@ -97,17 +97,17 @@ const Culture = () => {
         {/* Cultural Events Banner */}
         <div className="bg-gradient-to-r from-primary to-secondary rounded-3xl p-8 md:p-12 text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
-            Festival National des Arts et de la Culture
+            Le Festival International du Livre Gabonais et des Arts (FILIGA)
           </h3>
           <p className="text-primary-foreground/80 max-w-2xl mx-auto mb-6">
-            Rejoignez-nous pour la prochaine édition du FNAC, le plus grand rassemblement
-            culturel du Gabon qui célèbre notre diversité et notre créativité.
+            Rejoignez-nous pour la prochaine édition du FILIGA, le plus grand rassemblement
+            culturel du livre Gabonais qui célèbre notre diversité et notre créativité.
           </p>
           <Button
             size="lg"
             className="bg-accent text-accent-foreground hover:bg-accent/90 btn-glow"
           >
-            En savoir plus sur le FNAC
+            En savoir plus sur le FILIGA
           </Button>
         </div>
       </div>

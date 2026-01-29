@@ -1,8 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import footballImage from "@/assets/sport-football.jpg";
-import basketballImage from "@/assets/sport-basketball.jpg";
-import athleticsImage from "@/assets/sport-athletics.jpg";
+import footballImage from "@/assets/PEA.jpg";
+import basketballImage from "@/assets/BKET.jpeg";
+import athleticsImage from "@/assets/ath.jpeg";
 
 const Sports = () => {
   const sports = [
