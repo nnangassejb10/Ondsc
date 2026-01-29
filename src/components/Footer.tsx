@@ -1,5 +1,5 @@
 import { ArrowUp } from "lucide-react";
-import ondscLogo from "@/assets/ondsc-logo.jpg";
+import ondscLogo from "@/assets/onsc-removebg-preview.png";
 
 const Footer = () => {
   const scrollToTop = () => {
