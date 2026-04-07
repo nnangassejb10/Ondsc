@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
+🌐 ONDSC – Plateforme Web
 
-## Project info
+Bienvenue sur la plateforme web de l’ONDSC. Ce projet vise à proposer une interface moderne, fluide et accessible pour la consultation d’informations et la valorisation des activités de l’organisation.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+🚀 Accès à l’application
 
-## How can I edit this code?
+👉 https://o-ndsc.vercel.app/
 
-There are several ways of editing your application.
+🎯 Objectifs du projet
+Centraliser les informations de l’ONDSC
+Améliorer la visibilité des activités
+Offrir une interface moderne et intuitive
+Faciliter l’accès aux contenus pour les utilisateurs
+⚙️ Fonctionnalités principales
+📄 Consultation des informations
+🧭 Navigation fluide et intuitive
+🎨 Interface responsive (adaptée mobile et desktop)
+⚡ Chargement rapide et optimisé
+🛠️ Technologies utilisées
 
-**Use Lovable**
+Ce projet est développé avec :
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+Vite
+TypeScript
+React
+shadcn/ui
+Tailwind CSS
+💻 Installation et exécution en local
+Prérequis
+Node.js
+npm (installé avec Node.js)
+Étapes
+# 1. Cloner le dépôt
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# 2. Accéder au dossier
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 3. Installer les dépendances
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 4. Lancer le serveur de développement
 npm run dev
-```
+✏️ Modifier le projet
+1. En local avec un IDE
 
-**Edit a file directly in GitHub**
+Tu peux utiliser ton éditeur préféré :
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Visual Studio Code recommandé
 
-**Use GitHub Codespaces**
+Les modifications seront ensuite envoyées sur GitHub.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2. Directement sur GitHub
+Aller dans le fichier
+Cliquer sur ✏️ Modifier
+Enregistrer les modifications
+3. Avec GitHub Codespaces
+Aller sur le dépôt
+Cliquer sur Code → Codespaces
+Créer un nouvel environnement
+Modifier et pousser les changements
+🚀 Déploiement
 
-## What technologies are used for this project?
+Le projet peut être déployé facilement via :
 
-This project is built with:
+Vercel
+🌍 Domaine personnalisé
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Il est possible de connecter un domaine personnalisé via les paramètres du projet sur la plateforme de déploiement utilisée.
 
-## How can I deploy this project?
+👤 Auteur
+@nnangassejb10
+💡 Conseil pour améliorer ton projet
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Pour rendre ton dépôt encore plus professionnel :
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Ajouter des captures d’écran du site
+Ajouter une section “Fonctionnalités détaillées”
+Ajouter un badge (déploiement, version, etc.)
