@@ -2,7 +2,7 @@
 
 Bienvenue sur la plateforme web de l’ONDSC. Ce projet vise à proposer une interface moderne, fluide et accessible pour la consultation d’informations et la valorisation des activités de l’organisation.
 
-🚀 Accès à l’application
+🚀 Accès au site
 
 👉 https://o-ndsc.vercel.app/
 
